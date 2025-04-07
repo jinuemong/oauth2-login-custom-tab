@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.android.oauth2_login_custom_tab"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.android.oauth2_login_custom_tab"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
