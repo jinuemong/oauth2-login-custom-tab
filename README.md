@@ -19,3 +19,16 @@ https://brewagebear.github.io/aes-algorithm-and-chiper-mode/
 
 ### 같은 방법
 https://st-lab.tistory.com/100
+
+### 커스텀 탭 
+```kotlin
+<activity
+    android:name=".RedirectActivity"
+    android:launchMode="singleTask"
+    android:taskAffinity="" />
+돌아올 때 뷰 삭제
+val intent = Intent(this, MainActivity::class.java)
+intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+startActivity(intent)
+finish()
+```
