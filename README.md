@@ -16,3 +16,6 @@ https://velog.io/@yoosj97/%EC%95%94%ED%98%B8%ED%99%94-%EA%B8%B0%EB%B2%95-%ED%95%
 ### 단방향 & 해시 & 솔트
 https://shurimp.tistory.com/45
 https://brewagebear.github.io/aes-algorithm-and-chiper-mode/
+
+### 같은 방법
+https://st-lab.tistory.com/100
